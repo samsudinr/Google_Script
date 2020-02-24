@@ -1,0 +1,15 @@
+function multiply{
+  // using two conditions with input x array and input y array
+  if (Array.isArray(x) && Array.isArray(y)){
+    var resulty = [];
+    for (var i=0;i<x.length;i++){
+      for (var j=0;j<y.length;j++){
+    }
+      resulty.push(x[i] * y[i])
+    }
+    return resulty
+  }  
+  else{
+    return x * y;
+}
+}
